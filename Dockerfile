@@ -5,7 +5,7 @@ ENV TOYBOX_AUTHZ_ENV = production \
     TOYBOX_AUTHZ_TESTING=0 \
     TOYBOX_AUTHZ_SECRET_KEY=HARD_STRONG_SECRET_KEY \
     TOYBOX_AUTHZ_TIMEZONE = Asia/Tehran \
-    TOYBOX_AUTHZ_DATABASE_URI = mysql+pymysql://root:test@mysql:3306/authz
+    TOYBOX_AUTHZ_DATABASE_URI=mysql+pymysql://root:test@mysql:3306/authz
 
 EXPOSE 8080
 WORKDIR /opt/app

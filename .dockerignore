@@ -1,4 +1,6 @@
 Dockerfile
+docker-compose.yml
+.mysql.env
 .dockerignore
 .gitignore
 .git
